@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Electron App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id="input-container">
+      <h2>Enter Video URLs</h2>
+      <form id="url-form">
+        <label for="url1">URL 1:</label>
+        <input type="text" id="url1" name="url1">
+
+        <label for="url2">URL 2:</label>
+        <input type="text" id="url2" name="url2">
+
+        <label for="url3">URL 3:</label>
+        <input type="text" id="url3" name="url3">
+
+        <label for="url4">URL 4:</label>
+        <input type="text" id="url4" name="url4">
+
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+    </div>
+
+    <div id="video-container"></div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
